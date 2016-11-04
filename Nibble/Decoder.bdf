@@ -1,0 +1,155 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 64 104 248 120)
+	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
+	(text "IN[23..0]" (rect 5 0 90 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 528 96 718 112)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "ADDR[4..0]" (rect 90 0 184 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 536 160 712 176)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "Y[7..0]" (rect 90 0 156 12)(font "Liberation Sans" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 536 224 712 240)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "X[7..0]" (rect 90 0 156 12)(font "Liberation Sans" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 544 312 720 328)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "OP[2..0]" (rect 90 0 165 12)(font "Liberation Sans" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(connector
+	(pt 248 112)
+	(pt 376 112)
+	(bus)
+)
+(connector
+	(pt 376 104)
+	(pt 376 112)
+	(bus)
+)
+(connector
+	(text "IN[20..16]" (rect 386 88 480 100)(font "Liberation Sans" ))
+	(pt 528 104)
+	(pt 376 104)
+	(bus)
+)
+(connector
+	(pt 376 112)
+	(pt 376 168)
+	(bus)
+)
+(connector
+	(text "IN[7..0]" (rect 386 152 461 164)(font "Liberation Sans" ))
+	(pt 536 168)
+	(pt 376 168)
+	(bus)
+)
+(connector
+	(pt 376 168)
+	(pt 376 232)
+	(bus)
+)
+(connector
+	(text "IN[15..8]" (rect 386 216 470 228)(font "Liberation Sans" ))
+	(pt 536 232)
+	(pt 376 232)
+	(bus)
+)
+(connector
+	(text "IN[23..0]" (rect 360 254 372 338)(font "Liberation Sans" )(vertical))
+	(pt 376 232)
+	(pt 376 320)
+	(bus)
+)
+(connector
+	(text "IN[23..21]" (rect 386 304 480 316)(font "Liberation Sans" ))
+	(pt 376 320)
+	(pt 544 320)
+	(bus)
+)
+(junction (pt 376 112))
+(junction (pt 376 168))
+(junction (pt 376 232))

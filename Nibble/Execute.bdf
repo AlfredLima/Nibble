@@ -1,0 +1,580 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -104 184 88 200)
+	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
+	(text "MEMO[7..0]" (rect 5 0 99 12)(font "Liberation Sans" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -184 104 0 120)
+	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
+	(text "SEL[2..0]" (rect 5 0 89 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -632 336 -464 352)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "X[7..0]" (rect 5 0 71 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -480 224 -312 240)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "Y[7..0]" (rect 5 0 71 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -624 368 -456 384)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "EnableX" (rect 5 0 71 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -480 256 -312 272)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "EnableY" (rect 5 0 71 12)(font "Liberation Sans" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -608 352 -440 368)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "Clock" (rect 5 0 53 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -648 416 -480 432)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "Clear" (rect 5 0 53 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 808 240 988 256)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "OUT[7..0]" (rect 90 0 174 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 584 216 808 312)
+	(text "FullAdd8" (rect 5 0 89 15)(font "Liberation Sans" (font_size 8)))
+	(text "inst5" (rect 8 80 55 92)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "B[7..0]" (rect 0 0 74 15)(font "Liberation Sans" (font_size 8)))
+		(text "B[7..0]" (rect 21 27 95 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "A[7..0]" (rect 0 0 74 15)(font "Liberation Sans" (font_size 8)))
+		(text "A[7..0]" (rect 21 43 95 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "OUT[7..0]" (rect 0 0 95 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUT[7..0]" (rect 108 27 203 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "OUTC" (rect 0 0 42 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUTC" (rect 161 43 203 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 224 48)(pt 208 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 80))
+	)
+)
+(symbol
+	(rect -120 360 112 456)
+	(text "Comp2" (rect 5 0 58 15)(font "Liberation Sans" (font_size 8)))
+	(text "inst6" (rect 8 80 55 92)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN[7..0]" (rect 0 0 84 15)(font "Liberation Sans" (font_size 8)))
+		(text "IN[7..0]" (rect 21 27 105 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "OUT[7..0]" (rect 0 0 95 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUT[7..0]" (rect 116 27 211 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(port
+		(pt 232 48)
+		(output)
+		(text "OUTC" (rect 0 0 42 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUTC" (rect 169 43 211 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 232 48)(pt 216 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 80))
+	)
+)
+(symbol
+	(rect -424 312 -192 440)
+	(text "V" (rect 5 0 15 15)(font "Liberation Sans" (font_size 8)))
+	(text "inst17" (rect 8 112 64 124)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN[7..0]" (rect 0 0 84 15)(font "Liberation Sans" (font_size 8)))
+		(text "IN[7..0]" (rect 21 27 105 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Clock" (rect 0 0 53 15)(font "Liberation Sans" (font_size 8)))
+		(text "Clock" (rect 21 43 74 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Enable" (rect 0 0 63 15)(font "Liberation Sans" (font_size 8)))
+		(text "Enable" (rect 21 59 84 74)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Clear" (rect 0 0 53 15)(font "Liberation Sans" (font_size 8)))
+		(text "Clear" (rect 21 75 74 90)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "OUT[7..0]" (rect 0 0 95 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUT[7..0]" (rect 116 27 211 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 112))
+	)
+)
+(symbol
+	(rect -240 200 -8 328)
+	(text "V" (rect 5 0 15 15)(font "Liberation Sans" (font_size 8)))
+	(text "inst18" (rect 8 112 64 124)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN[7..0]" (rect 0 0 84 15)(font "Liberation Sans" (font_size 8)))
+		(text "IN[7..0]" (rect 21 27 105 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Clock" (rect 0 0 53 15)(font "Liberation Sans" (font_size 8)))
+		(text "Clock" (rect 21 43 74 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Enable" (rect 0 0 63 15)(font "Liberation Sans" (font_size 8)))
+		(text "Enable" (rect 21 59 84 74)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Clear" (rect 0 0 53 15)(font "Liberation Sans" (font_size 8)))
+		(text "Clear" (rect 21 75 74 90)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "OUT[7..0]" (rect 0 0 95 15)(font "Liberation Sans" (font_size 8)))
+		(text "OUT[7..0]" (rect 116 27 211 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 112))
+	)
+)
+(symbol
+	(rect 304 176 416 264)
+	(text "BUSMUX" (rect 28 70 105 88)(font "Arial" (font_size 10)))
+	(text "inst2222" (rect 3 -4 87 11)(font "Arial" (font_size 8)))
+	(port
+		(pt 0 24)
+		(input)
+		(text "datab[WIDTH-1..0]" (rect 6 51 186 66)(font "Arial" (font_size 8)))
+		(text "datab[]" (rect 6 22 80 37)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 44 24)(line_width 3))
+	)
+	(port
+		(pt 56 0)
+		(input)
+		(text "sel" (rect 59 70 90 85)(font "Arial" (font_size 8)))
+		(text "sel" (rect 59 3 90 18)(font "Arial" (font_size 8)))
+		(line (pt 56 0)(pt 56 16))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "dataa[WIDTH-1..0]" (rect 6 19 186 34)(font "Arial" (font_size 8)))
+		(text "dataa[]" (rect 6 54 80 69)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 44 56)(line_width 3))
+	)
+	(port
+		(pt 112 40)
+		(output)
+		(text "result[WIDTH-1..0]" (rect 75 35 266 50)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 38 159 53)(font "Arial" (font_size 8)))
+		(line (pt 68 40)(pt 112 40)(line_width 3))
+	)
+	(parameter
+		"WIDTH"
+		"8"
+		"Width of I/O, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+	)
+	(drawing
+		(text "0" (rect 52 46 60 57)(font "Arial" (font_size 6)))
+		(text "1" (rect 52 22 60 33)(font "Arial" (font_size 6)))
+		(line (pt 68 24)(pt 68 56))
+		(line (pt 44 8)(pt 44 72))
+		(line (pt 44 72)(pt 68 56))
+		(line (pt 44 8)(pt 68 24))
+	)
+	(flipx)
+	(annotation_block (parameter)(rect 416 136 590 176))
+)
+(symbol
+	(rect 184 304 296 392)
+	(text "BUSMUX" (rect 28 0 105 18)(font "Arial" (font_size 10)))
+	(text "inst2223" (rect 3 80 78 92)(font "Liberation Sans" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "datab[WIDTH-1..0]" (rect 6 51 186 66)(font "Arial" (font_size 8)))
+		(text "datab[]" (rect 6 51 80 66)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 44 64)(line_width 3))
+	)
+	(port
+		(pt 56 88)
+		(input)
+		(text "sel" (rect 59 70 90 85)(font "Arial" (font_size 8)))
+		(text "sel" (rect 59 70 90 85)(font "Arial" (font_size 8)))
+		(line (pt 56 88)(pt 56 72))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "dataa[WIDTH-1..0]" (rect 6 19 186 34)(font "Arial" (font_size 8)))
+		(text "dataa[]" (rect 6 19 80 34)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 44 32)(line_width 3))
+	)
+	(port
+		(pt 112 48)
+		(output)
+		(text "result[WIDTH-1..0]" (rect 75 35 266 50)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 35 159 50)(font "Arial" (font_size 8)))
+		(line (pt 68 48)(pt 112 48)(line_width 3))
+	)
+	(parameter
+		"WIDTH"
+		"8"
+		"Width of I/O, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+	)
+	(drawing
+		(text "0" (rect 52 31 60 42)(font "Arial" (font_size 6)))
+		(text "1" (rect 52 55 60 66)(font "Arial" (font_size 6)))
+		(line (pt 68 64)(pt 68 32))
+		(line (pt 44 80)(pt 44 16))
+		(line (pt 44 16)(pt 68 32))
+		(line (pt 44 80)(pt 68 64))
+	)
+	(annotation_block (parameter)(rect 296 264 470 304))
+)
+(connector
+	(pt 416 216)
+	(pt 584 216)
+	(bus)
+)
+(connector
+	(pt 584 216)
+	(pt 584 248)
+	(bus)
+)
+(connector
+	(pt 432 328)
+	(pt 584 328)
+	(bus)
+)
+(connector
+	(pt 584 328)
+	(pt 584 264)
+	(bus)
+)
+(connector
+	(pt 112 392)
+	(pt 120 392)
+	(bus)
+)
+(connector
+	(pt -464 344)
+	(pt -424 344)
+	(bus)
+)
+(connector
+	(pt -192 344)
+	(pt -120 344)
+	(bus)
+)
+(connector
+	(pt -424 360)
+	(pt -440 360)
+)
+(connector
+	(pt -240 248)
+	(pt -440 248)
+)
+(connector
+	(pt -440 248)
+	(pt -440 360)
+)
+(connector
+	(pt -8 232)
+	(pt 304 232)
+	(bus)
+)
+(connector
+	(pt -312 232)
+	(pt -240 232)
+	(bus)
+)
+(connector
+	(pt -240 280)
+	(pt -560 280)
+)
+(connector
+	(pt -560 280)
+	(pt -560 392)
+)
+(connector
+	(pt -312 264)
+	(pt -240 264)
+)
+(connector
+	(pt -456 376)
+	(pt -424 376)
+)
+(connector
+	(text "SEL[0]" (rect 344 118 356 174)(font "Liberation Sans" )(vertical))
+	(pt 360 176)
+	(pt 360 112)
+)
+(connector
+	(pt 432 328)
+	(pt 432 352)
+	(bus)
+)
+(connector
+	(pt 120 392)
+	(pt 120 368)
+	(bus)
+)
+(connector
+	(pt 120 368)
+	(pt 184 368)
+	(bus)
+)
+(connector
+	(pt -120 336)
+	(pt 184 336)
+	(bus)
+)
+(connector
+	(pt -120 336)
+	(pt -120 344)
+	(bus)
+)
+(connector
+	(pt -120 344)
+	(pt -120 392)
+	(bus)
+)
+(connector
+	(pt 296 352)
+	(pt 432 352)
+	(bus)
+)
+(connector
+	(pt 296 200)
+	(pt 296 192)
+	(bus)
+)
+(connector
+	(pt 304 200)
+	(pt 296 200)
+	(bus)
+)
+(connector
+	(pt 296 192)
+	(pt 88 192)
+	(bus)
+)
+(connector
+	(pt 240 392)
+	(pt 240 400)
+)
+(connector
+	(pt 0 112)
+	(pt 160 112)
+	(bus)
+)
+(connector
+	(pt 160 112)
+	(pt 360 112)
+	(bus)
+)
+(connector
+	(pt 160 400)
+	(pt 240 400)
+)
+(connector
+	(text "SEL[1]" (rect 144 342 156 398)(font "Liberation Sans" )(vertical))
+	(pt 160 400)
+	(pt 160 112)
+)
+(connector
+	(pt -480 424)
+	(pt -480 392)
+)
+(connector
+	(pt -424 392)
+	(pt -480 392)
+)
+(connector
+	(pt -480 392)
+	(pt -560 392)
+)
+(junction (pt -120 344))
+(junction (pt 160 112))
+(junction (pt -480 392))

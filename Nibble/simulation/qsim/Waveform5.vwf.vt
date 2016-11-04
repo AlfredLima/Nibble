@@ -1,0 +1,136 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/03/2016 17:59:05"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Nibble
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Nibble_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Clock;
+// wires                                               
+wire [4:0] ADDR;
+wire [4:0] ENDR;
+wire [7:0] O;
+wire OP0;
+wire OP1;
+wire OP2;
+wire OP10;
+wire OP11;
+wire OP12;
+wire X0;
+wire X1;
+wire X2;
+wire X3;
+wire X4;
+wire X5;
+wire X6;
+wire X7;
+wire X10;
+wire X11;
+wire X12;
+wire X13;
+wire X14;
+wire X15;
+wire X16;
+wire X17;
+wire Y0;
+wire Y1;
+wire Y2;
+wire Y3;
+wire Y4;
+wire Y5;
+wire Y6;
+wire Y7;
+wire Y10;
+wire Y11;
+wire Y12;
+wire Y13;
+wire Y14;
+wire Y15;
+wire Y16;
+wire Y17;
+
+// assign statements (if any)                          
+Nibble i1 (
+// port map - connection between master ports and signals/registers   
+	.ADDR(ADDR),
+	.Clock(Clock),
+	.ENDR(ENDR),
+	.O(O),
+	.OP0(OP0),
+	.OP1(OP1),
+	.OP2(OP2),
+	.OP10(OP10),
+	.OP11(OP11),
+	.OP12(OP12),
+	.X0(X0),
+	.X1(X1),
+	.X2(X2),
+	.X3(X3),
+	.X4(X4),
+	.X5(X5),
+	.X6(X6),
+	.X7(X7),
+	.X10(X10),
+	.X11(X11),
+	.X12(X12),
+	.X13(X13),
+	.X14(X14),
+	.X15(X15),
+	.X16(X16),
+	.X17(X17),
+	.Y0(Y0),
+	.Y1(Y1),
+	.Y2(Y2),
+	.Y3(Y3),
+	.Y4(Y4),
+	.Y5(Y5),
+	.Y6(Y6),
+	.Y7(Y7),
+	.Y10(Y10),
+	.Y11(Y11),
+	.Y12(Y12),
+	.Y13(Y13),
+	.Y14(Y14),
+	.Y15(Y15),
+	.Y16(Y16),
+	.Y17(Y17)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// Clock
+always
+begin
+	Clock = 1'b0;
+	Clock = #5000 1'b1;
+	#5000;
+end 
+endmodule
+

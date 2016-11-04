@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/alunoic/workspace/Alfredo/Nibble/simulation/qsim
+vNibble
+Z1 !s110 1478269112
+!i10b 1
+!s100 YCof[YA^<m4ZYFT[QkXWk1
+IN9H<Q:lGRV5NJME5Oz<8e2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1478269111
+8Nibble.vo
+FNibble.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1478269112.000000
+!s107 Nibble.vo|
+!s90 -work|work|Nibble.vo|
+!i113 1
+Z5 o-work work
+n@nibble
+vNibble_vlg_vec_tst
+R1
+!i10b 1
+!s100 >m_U;kDm7]U4T>O^@Ln5L1
+IK:=M>O[4YQiI60FU6QPHn1
+R2
+R0
+w1478269109
+8Waveform10.vwf.vt
+FWaveform10.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform10.vwf.vt|
+!s90 -work|work|Waveform10.vwf.vt|
+!i113 1
+R5
+n@nibble_vlg_vec_tst
